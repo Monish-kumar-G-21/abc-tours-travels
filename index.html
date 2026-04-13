@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ABC Tours & Travels</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: Arial, sans-serif; color:#333; }
+header { background:#0d6efd; color:white; padding:20px; text-align:center; }
+header h1 { font-size:2rem; }
+header p { font-size:1rem; margin-top:5px; }
+nav { background:#0a4bbf; display:flex; justify-content:center; gap:30px; padding:12px; }
+nav a { color:white; text-decoration:none; font-weight:bold; font-size:1rem; }
+nav a:hover { text-decoration:underline; }
+section { padding:30px 50px; }
+h2 { color:#0d6efd; border-bottom:2px solid #0d6efd; padding-bottom:6px; margin-bottom:18px; }
+h3 { color:#1b4332; margin:14px 0 6px; }
+.destination-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:20px; }
+.card { border:1px solid #ddd; border-radius:8px; padding:18px; background:#f9f9f9; }
+.card h3 { color:#0d6efd; margin-top:0; }
+.card ul { padding-left:18px; margin-top:8px; }
+.card .cost { font-weight:bold; color:#1b4332; margin-top:10px; }
+.package-card { background:#e8f4fd; border-left:4px solid #0d6efd; padding:14px 18px;
+margin-bottom:14px; border-radius:4px; }
+footer { background:#0d1b2a; color:#ccc; text-align:center; padding:18px; font-size:0.9rem; }
+footer a { color:#aad4f5; text-decoration:none; margin:0 8px; }
+#contact p { margin:6px 0; }
+</style>
+</head>
+<body>
+<header>
+<h1>ABC Tours & Travels</h1>
+<p>Explore the World with Us — Affordable, Memorable & Hassle-Free Trips</p>
+</header>
+<nav>
+<a href="#home">Home</a>
+<a href="#destinations">Destinations</a>
+<a href="#packages">Packages</a>
+<a href="#contact">Contact</a>
+</nav>
+<!-- HOME -->
+<section id="home">
+<h2>Welcome to ABC Tours & Travels</h2>
+<p>We offer handcrafted travel experiences across India and beyond. Whether you seek serene
+beaches, misty hill stations, or ancient heritage — we have the perfect journey for you.</p>
+</section>
+<!-- DESTINATIONS -->
+<section id="destinations">
+<h2>Popular Destinations</h2>
+<h3>Beaches</h3>
+<div class="destination-grid">
+<div class="card">
+<h3>Goa</h3>
+<p>India's most famous beach destination with vibrant nightlife and Portuguese heritage.</p>
+<ul>
+<li>Baga Beach</li>
+<li>Fort Aguada</li>
+<li>Dudhsagar Waterfalls</li>
+</ul>
+<p class="cost">Package: Rs. 8,500 / person (3N/4D)</p>
+</div>
+<div class="card">
+<h3>Andaman Islands</h3>
+<p>Crystal clear waters, coral reefs and pristine white sand beaches.</p>
+<ul>
+<li>Radhanagar Beach</li>
+<li>Cellular Jail</li>
+<li>Scuba Diving</li>
+</ul>
+<p class="cost">Package: Rs. 18,000 / person (5N/6D)</p>
+</div>
+</div>
+<h3>Hill Stations</h3>
+<div class="destination-grid">
+<div class="card">
+<h3>Ooty</h3>
+<p>The Queen of Hill Stations with tea gardens and toy train rides.</p>
+<ul>
+<li>Botanical Garden</li>
+<li>Doddabetta Peak</li>
+<li>Nilgiri Mountain Railway</li>
+</ul>
+<p class="cost">Package: Rs. 6,000 / person (2N/3D)</p>
+</div>
+<div class="card">
+<h3>Manali</h3>
+<p>Snow-capped peaks, adventure sports and scenic Himalayan valleys.</p>
+<ul>
+<li>Rohtang Pass</li>
+<li>Solang Valley</li>
+<li>Hadimba Temple</li>
+</ul>
+<p class="cost">Package: Rs. 12,000 / person (4N/5D)</p>
+</div>
+</div>
+<h3>Heritage Sites</h3>
+<div class="destination-grid">
+<div class="card">
+<h3>Agra</h3>
+<p>Home to the iconic Taj Mahal and Mughal-era monuments.</p>
+<ul>
+<li>Taj Mahal</li>
+<li>Agra Fort</li>
+<li>Fatehpur Sikri</li>
+</ul>
+<p class="cost">Package: Rs. 7,500 / person (2N/3D)</p>
+</div>
+<div class="card">
+<h3>Hampi</h3>
+<p>UNESCO World Heritage site with ruins of the Vijayanagara Empire.</p>
+<ul>
+<li>Virupaksha Temple</li>
+<li>Stone Chariot</li>
+<li>Lotus Mahal</li>
+</ul>
+<p class="cost">Package: Rs. 5,500 / person (2N/3D)</p>
+</div>
+</div>
+</section>
+<!-- PACKAGES -->
+<section id="packages">
+<h2>Travel Packages & Deals</h2>
+<div class="package-card">
+<h3>Summer Special — Beach Bonanza</h3>
+<p>Goa + Andaman combo | 8N/9D | Rs. 24,000 per person | Includes: Flights, Hotel, Meals</p>
+</div>
+<div class="package-card">
+<h3>Hill Escape Package</h3>
+<p>Ooty + Manali | 7N/8D | Rs. 20,000 per person | Includes: Transport, Hotel, Breakfast</p>
+</div>
+<div class="package-card">
+<h3>Heritage Trail</h3>
+<p>Agra + Hampi + Jaipur | 6N/7D | Rs. 17,500 per person | Includes: Guide, Hotel,
+Sightseeing</p>
+</div>
+<div class="package-card">
+<h3>Honeymoon Special</h3>
+<p>Andaman + Goa | 10N/11D | Rs. 45,000 per couple | Includes: Flights, Luxury Hotel, All
+Meals</p>
+</div>
+</section>
+<!-- ABOUT -->
+<section id="about">
+<h2>About Us</h2>
+<p>ABC Tours & Travels has been delivering exceptional travel experiences since 2005. With over
+50,000 satisfied customers, we specialize in:</p>
+<ul>
+<li>Customized domestic and international tour packages</li>
+<li>Group and corporate travel management</li>
+<li>Hotel and flight booking assistance</li>
+<li>24/7 customer support during travel</li>
+</ul>
+</section>
+<!-- CONTACT -->
+<section id="contact">
+<h2>Contact Us</h2>
+<p>Phone: +91 98765 43210</p>
+<p>Email: info@abctourstravels.com</p>
+<p>Address: 12, Marina Complex, Chennai, Tamil Nadu - 600001</p>
+</section>
+<footer>
+<p>&copy; 2024 ABC Tours & Travels. All Rights Reserved.</p>
+<p>
+<a href="#">Facebook</a> |
+<a href="#">Instagram</a> |
+<a href="#">Twitter</a> |
+<a href="#">YouTube</a>
+</p>
+</footer>
+</body>
+</html>
